@@ -6,19 +6,23 @@
   color: white;
 }
 
-.alert.info {
+.info {
+  composes: alert;
   background-color: blue;
 }
 
-.alert.success {
+.success {
+  composes: alert;
   background-color: green;
 }
 
-.alert.error {
+.error {
+  composes: alert;
   background-color: red;
 }
 
-.alert.warning {
+.warning {
+  composes: alert;
   background-color: orange;
 }
 
