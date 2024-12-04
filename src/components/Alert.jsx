@@ -13,3 +13,5 @@ const Alert = ({ variant, outlined, elevated, children }) => {
 
   return <p className={classNAme.join(" ")}>{children}</p>;
 };
+
+export default Alert;

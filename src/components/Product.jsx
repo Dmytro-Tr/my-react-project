@@ -1,5 +1,3 @@
-// src/components/Product.jsx
-
 import PropTypes from "prop-types";
 
 const Product = ({
